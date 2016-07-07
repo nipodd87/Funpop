@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    tools:context="com.nitz.studio.funpop.NavigationDrawerFragment"
+    android:background="#FFF"
+    android:fitsSystemWindows="true"
+    >
+    
+    <ImageView
+        android:id="@+id/iconLogo"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+        android:src="@drawable/vmwware"
+        android:layout_marginTop="24dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/iconLogo"
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
